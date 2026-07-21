@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--
+Initial Accessibility Score: 94
+
+Issues Found:
+1. Low color contrast
+2. Improper heading hierarchy
+
+Fixes Applied:
+1. Added form labels
+2. Added alt text
+3. Corrected heading structure
+4. Improved color contrast
+
+Final Accessibility Score: 95
+-->
+
+    <header>
+        <h1>Student Portal</h1>
+
+        <button id="menu-btn" aria-expanded="false">
+            Menu
+        </button>
+
+        <nav aria-label="Main Navigation" style="background-color: #333; color: #fff; padding: 10px;">
+            <ul>
+                <li>
+                    <a href="#" aria-current="page">
+                        Home
+                    </a>
+                </li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Grades</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="hero">
+
+            <img src="./images/student-banner.jpg" alt="Student portal dashboard preview" width="600" height="350">
+
+            <h2>Welcome to the Student Portal</h2>
+
+            <p>
+                Manage your courses, grades and profile efficiently.
+            </p>
+
+            <button>
+                Explore Courses
+            </button>
+
+        </section>
+
+        <section id="stats">
+
+            <div class="stat-item">
+                <h3>3</h3>
+                <p>Courses Enrolled</p>
+            </div>
+
+            <div class="stat-item">
+                <h3>8.8</h3>
+                <p>GPA</p>
+            </div>
+
+            <div class="stat-item">
+                <h3>6</h3>
+                <p>Semester</p>
+            </div>
+
+        </section>
+
+        <section id="courses">
+
+            <h2>Available Courses</h2>
+
+            <label for="search-courses">
+                Search Courses
+            </label>
+
+            <input type="text" id="search-courses" placeholder="Search courses...">
+
+            <p id="results-count" role="status" aria-live="polite">
+                5 courses found
+            </p>
+
+            <button id="sort-btn">
+                Sort by Credits
+            </button>
+
+            <div id="selected-course">
+                Select a course to view details
+            </div>
+
+            <div class="course-grid"></div>
+
+            <p id="total-credits"></p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Student Portal</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+
+    <script>
+        cssVars();
+    </script>
+
+    <script type="module" src="app.js"></script>
+
+</body>
+<!--
+Cross Browser Testing
+
+Chrome:
+Layout rendered correctly.
+
+Edge:
+Navigation and cards rendered correctly.
+
+No visual differences observed.
+-->
+
+</html>
