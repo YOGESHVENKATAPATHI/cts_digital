@@ -1,0 +1,23 @@
+<div class="container">
+
+    <h2>Course List</h2>
+
+    <input type="text" placeholder="Search Course" [(ngModel)]="searchTerm">
+
+    <p>
+        Total Courses: {{ filteredCourses.length }}
+    </p>
+
+    @for (course of filteredCourses; track course.id) {
+
+    <br/>
+
+    <h3>{{ course.title }}</h3>
+
+    <p>{{ course.body }}</p>
+
+    <hr>
+
+    }
+
+</div>
