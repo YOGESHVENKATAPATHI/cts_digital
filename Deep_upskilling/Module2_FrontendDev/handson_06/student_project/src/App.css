@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+}
+
+header {
+    background: #0b1745;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+.page {
+    padding: 40px;
+    text-align: center;
+}
+
+.page h2 {
+    color: #0b1745;
+    margin-bottom: 20px;
+}
+
+.course-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.course-links a {
+    text-decoration: none;
+    color: #1e3a8a;
+    font-size: 20px;
+}
+
+.course-links a:hover {
+    color: #0b1745;
+}
+
+.profile-card {
+    width: 400px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.detail-card {
+    width: 400px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.course-item {
+  margin: 20px;
+}
+
+.course-item button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: none;
+  background: #1e3a8a;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
