@@ -6,9 +6,9 @@ Every task features complete source code along with high-fidelity VS Code termin
 
 ---
 
-## 📂 Repository Structure & Modules
+## Repository Structure & Modules
 
-### 1. 🏗️ Software Design Patterns (`Module-1/Design_Pattern_exercise`)
+### 1. Software Design Patterns (`Module-1/Design_Pattern_exercise`)
 Implementations of classic creational, structural, and behavioral design patterns in Python to achieve clean, decoupled, and maintainable software architecture.
 *   **Singleton Pattern (`1_SingletonPatternExample.py`)**: Ensures a class has only one instance and provides a global access point.
 *   **Factory Method Pattern (`2_Factory_method.py`)**: Defines an interface for creating objects, delegating instantiation to subclasses.
@@ -23,7 +23,7 @@ Implementations of classic creational, structural, and behavioral design pattern
 
 ---
 
-### 🧮 2. Data Structures & Algorithms (`Module-2/DSA Exercises`)
+### 2. Data Structures & Algorithms (`Module-2/DSA Exercises`)
 Practical, automated systems written in Python implementing key data structures and algorithmic designs:
 *   **Inventory Management (`1_Inventory_management.py`)**: Performance-optimized product tracking.
 *   **E-Commerce Platform (`2_E-commerce.py`)**: Dynamic cart and transaction management.
@@ -35,20 +35,20 @@ Practical, automated systems written in Python implementing key data structures 
 
 ---
 
-### 🎨 3. Frontend Web Development (`Module2_FrontendDev`)
+### 3. Frontend Web Development (`Module2_FrontendDev`)
 Hands-on assignments showcasing clean layout structure, responsive grids, styles, and interactive scripts:
 *   **HTML & CSS Layouts (`handson_01` to `handson_05`)**: Custom-styled dashboards, structural pages, and CSS Flexbox/Grid responsive implementations.
 
 ---
 
-### 🗄️ 4. Relational Database Integration (`Module3_Database_Integration`)
+### 4. Relational Database Integration (`Module3_Database_Integration`)
 Relational database management systems architecture using SQL scripts:
 *   **Schema & DB Creation (`Hands_on_1/DB_Creation.png`)**: Entity-relationship design and relational normalization.
 *   **Advanced SQL Queries (`Hands1.sql`)**: Complex joins, indexing, triggers, subqueries, and stored procedures.
 
 ---
 
-### 🐍 5. Python Backend Frameworks (`PythonBackendFrameworks`)
+### 5. Python Backend Frameworks (`PythonBackendFrameworks`)
 Server-side engineering implementations utilizing top-tier Python web frameworks:
 *   **Django**: Model-View-Template architectures, ORM integration, and admin portal setup.
 *   **Flask**: Lightweight microservices, RESTful API design, and request routing.
@@ -56,16 +56,16 @@ Server-side engineering implementations utilizing top-tier Python web frameworks
 
 ---
 
-### 🤖 6. Browser Automation & Testing (`SeleniumBasics`)
+### 6. Browser Automation & Testing (`SeleniumBasics`)
 Quality assurance automation scripts for functional and regression testing:
 *   **Selenium Automation**: Test runners, web driver configurations, element locators, page object models (POM), and automated assertion verifications.
 
 ---
 
-### 📝 7. Comprehensive Coding Exercises (`Upskilling_coding_exercises`)
+### 7. Comprehensive Coding Exercises (`Upskilling_coding_exercises`)
 A collection of 50+ programming challenges covering data parsing, mathematical algorithms, data serialization, and file I/O operations in Python and SQL.
 
 ---
 
-## 🖥️ Screen Verification & Visual Documentation
+## Screen Verification & Visual Documentation
 Each exercise includes an `output/` subdirectory containing high-fidelity VS Code snapshots showing the code editor side-by-side with verified terminal executions.
