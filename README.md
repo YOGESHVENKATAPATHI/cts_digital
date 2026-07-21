@@ -1,12 +1,9 @@
 # CTS DN-5.0: Solved Coding & Engineering Exercises
 
-Welcome to the comprehensive portfolio of solved engineering, architecture, and coding exercises completed for the **CTS DN-5.0 program**. This repository covers a wide spectrum of software engineering domains, including software design patterns, data structures, frontend web development, database integration, backend frameworks, and test automation.
-
-Every task features complete source code along with high-fidelity VS Code terminal execution screenshots demonstrating output verification.
 
 ---
 
-## Repository Structure & Modules
+## Modules
 
 ### 1. Software Design Patterns (`Module-1/Design_Pattern_exercise`)
 Implementations of classic creational, structural, and behavioral design patterns in Python to achieve clean, decoupled, and maintainable software architecture.
@@ -67,5 +64,3 @@ A collection of 50+ programming challenges covering data parsing, mathematical a
 
 ---
 
-## Screen Verification & Visual Documentation
-Each exercise includes an `output/` subdirectory containing high-fidelity VS Code snapshots showing the code editor side-by-side with verified terminal executions.
